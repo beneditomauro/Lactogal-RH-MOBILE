@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3261445505CE5283BC1E6259 /* Pods_Lactogal_RHTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587EA155BCBA278EB0D4377C /* Pods_Lactogal_RHTests.framework */; };
+		721EAFEF2226E2E9005A5D64 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721EAFEE2226E2E9005A5D64 /* Tasks.swift */; };
+		723197392223665400D2D19D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723197382223665400D2D19D /* AppDelegate.swift */; };
+		7231973E2223665400D2D19D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7231973C2223665400D2D19D /* Main.storyboard */; };
+		723197402223665500D2D19D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7231973F2223665500D2D19D /* Assets.xcassets */; };
+		723197432223665500D2D19D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723197412223665500D2D19D /* LaunchScreen.storyboard */; };
+		7231974E2223665500D2D19D /* Lactogal_RHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7231974D2223665500D2D19D /* Lactogal_RHTests.swift */; };
+		723197592223665500D2D19D /* Lactogal_RHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723197582223665500D2D19D /* Lactogal_RHUITests.swift */; };
+		723197692223688800D2D19D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 723197682223688800D2D19D /* GoogleService-Info.plist */; };
+		729B2D8B2239998B002A4FD2 /* menuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729B2D8A2239998B002A4FD2 /* menuBar.swift */; };
+		72B25E2622236CAF0005362C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B25E2522236CAF0005362C /* Login.swift */; };
+		72B25E2A22236D400005362C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B25E2922236D400005362C /* User.swift */; };
+		72B25E2E222371040005362C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B25E2D222371040005362C /* RegisterViewController.swift */; };
+		72B25E302223713E0005362C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B25E2F2223713E0005362C /* Home.swift */; };
+		72B25E32222371AA0005362C /* NotificationsWaintingControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B25E31222371AA0005362C /* NotificationsWaintingControler.swift */; };
+		72B25E34222371DA0005362C /* Formulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B25E33222371DA0005362C /* Formulario.swift */; };
+		72B25E37222372360005362C /* bottomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B25E36222372360005362C /* bottomTabBarController.swift */; };
+		72F357B92241B1820028CA98 /* notifications_wainting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F357B82241B1820028CA98 /* notifications_wainting.swift */; };
+		72F357BC2241B2E30028CA98 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F357BB2241B2E30028CA98 /* ApiService.swift */; };
+		72F357C22241BA670028CA98 /* Notificacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F357C12241BA670028CA98 /* Notificacao.swift */; };
+		72F357C42241C1500028CA98 /* notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F357C32241C1500028CA98 /* notifications.swift */; };
+		72F357C62242B4050028CA98 /* notification_done.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F357C52242B4050028CA98 /* notification_done.swift */; };
+		72F357C82242D7E60028CA98 /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F357C72242D7E60028CA98 /* helpers.swift */; };
+		72F357CA224312460028CA98 /* NotificationsDoneControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F357C9224312460028CA98 /* NotificationsDoneControler.swift */; };
+		7BC105EF42C828DB55034764 /* Pods_Lactogal_RH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34610697F989D153C5AB60 /* Pods_Lactogal_RH.framework */; };
+		A2D8F02925297CBB89E24257 /* Pods_Lactogal_RHUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935C98BA70806B54579BEF04 /* Pods_Lactogal_RHUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7231974A2223665500D2D19D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7231972D2223665400D2D19D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 723197342223665400D2D19D;
+			remoteInfo = "Lactogal RH";
+		};
+		723197552223665500D2D19D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7231972D2223665400D2D19D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 723197342223665400D2D19D;
+			remoteInfo = "Lactogal RH";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C34610697F989D153C5AB60 /* Pods_Lactogal_RH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lactogal_RH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		587EA155BCBA278EB0D4377C /* Pods_Lactogal_RHTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lactogal_RHTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		721EAFEE2226E2E9005A5D64 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		723197352223665400D2D19D /* Lactogal RH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lactogal RH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		723197382223665400D2D19D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7231973D2223665400D2D19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7231973F2223665500D2D19D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		723197422223665500D2D19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		723197442223665500D2D19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723197492223665500D2D19D /* Lactogal RHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lactogal RHTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7231974D2223665500D2D19D /* Lactogal_RHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lactogal_RHTests.swift; sourceTree = "<group>"; };
+		7231974F2223665500D2D19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723197542223665500D2D19D /* Lactogal RHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lactogal RHUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		723197582223665500D2D19D /* Lactogal_RHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lactogal_RHUITests.swift; sourceTree = "<group>"; };
+		7231975A2223665500D2D19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723197682223688800D2D19D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		729B2D8A2239998B002A4FD2 /* menuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuBar.swift; sourceTree = "<group>"; };
+		72B25E2522236CAF0005362C /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		72B25E2922236D400005362C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		72B25E2D222371040005362C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		72B25E2F2223713E0005362C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		72B25E31222371AA0005362C /* NotificationsWaintingControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsWaintingControler.swift; sourceTree = "<group>"; };
+		72B25E33222371DA0005362C /* Formulario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formulario.swift; sourceTree = "<group>"; };
+		72B25E36222372360005362C /* bottomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomTabBarController.swift; sourceTree = "<group>"; };
+		72F357B82241B1820028CA98 /* notifications_wainting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifications_wainting.swift; sourceTree = "<group>"; };
+		72F357BB2241B2E30028CA98 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		72F357C12241BA670028CA98 /* Notificacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notificacao.swift; sourceTree = "<group>"; };
+		72F357C32241C1500028CA98 /* notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifications.swift; sourceTree = "<group>"; };
+		72F357C52242B4050028CA98 /* notification_done.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notification_done.swift; sourceTree = "<group>"; };
+		72F357C72242D7E60028CA98 /* helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
+		72F357C9224312460028CA98 /* NotificationsDoneControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsDoneControler.swift; sourceTree = "<group>"; };
+		89EB2C8B8C4237D6DAE546C2 /* Pods-Lactogal RH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lactogal RH.release.xcconfig"; path = "Target Support Files/Pods-Lactogal RH/Pods-Lactogal RH.release.xcconfig"; sourceTree = "<group>"; };
+		935C98BA70806B54579BEF04 /* Pods_Lactogal_RHUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lactogal_RHUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88ADC5F0B0ED946DDE953CC /* Pods-Lactogal RHTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lactogal RHTests.debug.xcconfig"; path = "Target Support Files/Pods-Lactogal RHTests/Pods-Lactogal RHTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D55C1880A69DB71D6DD1841A /* Pods-Lactogal RHTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lactogal RHTests.release.xcconfig"; path = "Target Support Files/Pods-Lactogal RHTests/Pods-Lactogal RHTests.release.xcconfig"; sourceTree = "<group>"; };
+		D96F9F4FB9AEDBABB575C587 /* Pods-Lactogal RH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lactogal RH.debug.xcconfig"; path = "Target Support Files/Pods-Lactogal RH/Pods-Lactogal RH.debug.xcconfig"; sourceTree = "<group>"; };
+		E64973DC4962DBF1690B2644 /* Pods-Lactogal RHUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lactogal RHUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lactogal RHUITests/Pods-Lactogal RHUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAEDADC0F2BB9EC691E94152 /* Pods-Lactogal RHUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lactogal RHUITests.release.xcconfig"; path = "Target Support Files/Pods-Lactogal RHUITests/Pods-Lactogal RHUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		723197322223665400D2D19D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC105EF42C828DB55034764 /* Pods_Lactogal_RH.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723197462223665500D2D19D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3261445505CE5283BC1E6259 /* Pods_Lactogal_RHTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723197512223665500D2D19D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D8F02925297CBB89E24257 /* Pods_Lactogal_RHUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		392A112D4F97AAC7D21E4180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C34610697F989D153C5AB60 /* Pods_Lactogal_RH.framework */,
+				587EA155BCBA278EB0D4377C /* Pods_Lactogal_RHTests.framework */,
+				935C98BA70806B54579BEF04 /* Pods_Lactogal_RHUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7231972C2223665400D2D19D = {
+			isa = PBXGroup;
+			children = (
+				723197372223665400D2D19D /* Lactogal RH */,
+				7231974C2223665500D2D19D /* Lactogal RHTests */,
+				723197572223665500D2D19D /* Lactogal RHUITests */,
+				723197362223665400D2D19D /* Products */,
+				8B4D5E46CF39958A436D61CA /* Pods */,
+				392A112D4F97AAC7D21E4180 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		723197362223665400D2D19D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				723197352223665400D2D19D /* Lactogal RH.app */,
+				723197492223665500D2D19D /* Lactogal RHTests.xctest */,
+				723197542223665500D2D19D /* Lactogal RHUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		723197372223665400D2D19D /* Lactogal RH */ = {
+			isa = PBXGroup;
+			children = (
+				72F357BD2241B2F30028CA98 /* Models */,
+				72AABCCE2236D8E200D434D7 /* Views */,
+				72B25E2722236CC50005362C /* utilities */,
+				72B25E2422236C040005362C /* controllers */,
+				723197682223688800D2D19D /* GoogleService-Info.plist */,
+				723197382223665400D2D19D /* AppDelegate.swift */,
+				7231973C2223665400D2D19D /* Main.storyboard */,
+				7231973F2223665500D2D19D /* Assets.xcassets */,
+				723197412223665500D2D19D /* LaunchScreen.storyboard */,
+				723197442223665500D2D19D /* Info.plist */,
+			);
+			path = "Lactogal RH";
+			sourceTree = "<group>";
+		};
+		7231974C2223665500D2D19D /* Lactogal RHTests */ = {
+			isa = PBXGroup;
+			children = (
+				7231974D2223665500D2D19D /* Lactogal_RHTests.swift */,
+				7231974F2223665500D2D19D /* Info.plist */,
+			);
+			path = "Lactogal RHTests";
+			sourceTree = "<group>";
+		};
+		723197572223665500D2D19D /* Lactogal RHUITests */ = {
+			isa = PBXGroup;
+			children = (
+				723197582223665500D2D19D /* Lactogal_RHUITests.swift */,
+				7231975A2223665500D2D19D /* Info.plist */,
+			);
+			path = "Lactogal RHUITests";
+			sourceTree = "<group>";
+		};
+		72AABCCE2236D8E200D434D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72F357C02241B9C30028CA98 /* ViewCells */,
+				729B2D8A2239998B002A4FD2 /* menuBar.swift */,
+				72F357B82241B1820028CA98 /* notifications_wainting.swift */,
+				72F357C52242B4050028CA98 /* notification_done.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72B25E2422236C040005362C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72B25E35222372100005362C /* bottomTabBar */,
+				72B25E2522236CAF0005362C /* Login.swift */,
+				72B25E2D222371040005362C /* RegisterViewController.swift */,
+				72B25E2F2223713E0005362C /* Home.swift */,
+				72B25E31222371AA0005362C /* NotificationsWaintingControler.swift */,
+				72B25E33222371DA0005362C /* Formulario.swift */,
+				72F357C9224312460028CA98 /* NotificationsDoneControler.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		72B25E2722236CC50005362C /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				72F357BA2241B20D0028CA98 /* API service */,
+				72B25E2822236D250005362C /* Auth_Reg */,
+				72F357C72242D7E60028CA98 /* helpers.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		72B25E2822236D250005362C /* Auth_Reg */ = {
+			isa = PBXGroup;
+			children = (
+				72B25E2922236D400005362C /* User.swift */,
+				721EAFEE2226E2E9005A5D64 /* Tasks.swift */,
+			);
+			path = Auth_Reg;
+			sourceTree = "<group>";
+		};
+		72B25E35222372100005362C /* bottomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				72B25E36222372360005362C /* bottomTabBarController.swift */,
+			);
+			path = bottomTabBar;
+			sourceTree = "<group>";
+		};
+		72F357BA2241B20D0028CA98 /* API service */ = {
+			isa = PBXGroup;
+			children = (
+				72F357BB2241B2E30028CA98 /* ApiService.swift */,
+			);
+			path = "API service";
+			sourceTree = "<group>";
+		};
+		72F357BD2241B2F30028CA98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72F357C12241BA670028CA98 /* Notificacao.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72F357C02241B9C30028CA98 /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				72F357C32241C1500028CA98 /* notifications.swift */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
+		8B4D5E46CF39958A436D61CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96F9F4FB9AEDBABB575C587 /* Pods-Lactogal RH.debug.xcconfig */,
+				89EB2C8B8C4237D6DAE546C2 /* Pods-Lactogal RH.release.xcconfig */,
+				A88ADC5F0B0ED946DDE953CC /* Pods-Lactogal RHTests.debug.xcconfig */,
+				D55C1880A69DB71D6DD1841A /* Pods-Lactogal RHTests.release.xcconfig */,
+				E64973DC4962DBF1690B2644 /* Pods-Lactogal RHUITests.debug.xcconfig */,
+				EAEDADC0F2BB9EC691E94152 /* Pods-Lactogal RHUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		723197342223665400D2D19D /* Lactogal RH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7231975D2223665500D2D19D /* Build configuration list for PBXNativeTarget "Lactogal RH" */;
+			buildPhases = (
+				ED2771FD93A5CE767FDCCC4E /* [CP] Check Pods Manifest.lock */,
+				723197312223665400D2D19D /* Sources */,
+				723197322223665400D2D19D /* Frameworks */,
+				723197332223665400D2D19D /* Resources */,
+				C53DBF49FE04A79B70175123 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lactogal RH";
+			productName = "Lactogal RH";
+			productReference = 723197352223665400D2D19D /* Lactogal RH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		723197482223665500D2D19D /* Lactogal RHTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723197602223665500D2D19D /* Build configuration list for PBXNativeTarget "Lactogal RHTests" */;
+			buildPhases = (
+				22084DA97D731FCD2213784E /* [CP] Check Pods Manifest.lock */,
+				723197452223665500D2D19D /* Sources */,
+				723197462223665500D2D19D /* Frameworks */,
+				723197472223665500D2D19D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7231974B2223665500D2D19D /* PBXTargetDependency */,
+			);
+			name = "Lactogal RHTests";
+			productName = "Lactogal RHTests";
+			productReference = 723197492223665500D2D19D /* Lactogal RHTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		723197532223665500D2D19D /* Lactogal RHUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723197632223665500D2D19D /* Build configuration list for PBXNativeTarget "Lactogal RHUITests" */;
+			buildPhases = (
+				B5D6C6308128D7F27F9270CF /* [CP] Check Pods Manifest.lock */,
+				723197502223665500D2D19D /* Sources */,
+				723197512223665500D2D19D /* Frameworks */,
+				723197522223665500D2D19D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				723197562223665500D2D19D /* PBXTargetDependency */,
+			);
+			name = "Lactogal RHUITests";
+			productName = "Lactogal RHUITests";
+			productReference = 723197542223665500D2D19D /* Lactogal RHUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7231972D2223665400D2D19D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mauro Jorge Costa dos Santos Benedito";
+				TargetAttributes = {
+					723197342223665400D2D19D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					723197482223665500D2D19D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 723197342223665400D2D19D;
+					};
+					723197532223665500D2D19D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 723197342223665400D2D19D;
+					};
+				};
+			};
+			buildConfigurationList = 723197302223665400D2D19D /* Build configuration list for PBXProject "Lactogal RH" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7231972C2223665400D2D19D;
+			productRefGroup = 723197362223665400D2D19D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				723197342223665400D2D19D /* Lactogal RH */,
+				723197482223665500D2D19D /* Lactogal RHTests */,
+				723197532223665500D2D19D /* Lactogal RHUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		723197332223665400D2D19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723197432223665500D2D19D /* LaunchScreen.storyboard in Resources */,
+				723197692223688800D2D19D /* GoogleService-Info.plist in Resources */,
+				723197402223665500D2D19D /* Assets.xcassets in Resources */,
+				7231973E2223665400D2D19D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723197472223665500D2D19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723197522223665500D2D19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22084DA97D731FCD2213784E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lactogal RHTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D6C6308128D7F27F9270CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lactogal RHUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C53DBF49FE04A79B70175123 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lactogal RH/Pods-Lactogal RH-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lactogal RH/Pods-Lactogal RH-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED2771FD93A5CE767FDCCC4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lactogal RH-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		723197312223665400D2D19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F357C22241BA670028CA98 /* Notificacao.swift in Sources */,
+				72B25E2A22236D400005362C /* User.swift in Sources */,
+				72F357B92241B1820028CA98 /* notifications_wainting.swift in Sources */,
+				72F357CA224312460028CA98 /* NotificationsDoneControler.swift in Sources */,
+				72B25E32222371AA0005362C /* NotificationsWaintingControler.swift in Sources */,
+				72B25E37222372360005362C /* bottomTabBarController.swift in Sources */,
+				72B25E2622236CAF0005362C /* Login.swift in Sources */,
+				72B25E34222371DA0005362C /* Formulario.swift in Sources */,
+				723197392223665400D2D19D /* AppDelegate.swift in Sources */,
+				72F357BC2241B2E30028CA98 /* ApiService.swift in Sources */,
+				72B25E302223713E0005362C /* Home.swift in Sources */,
+				72F357C62242B4050028CA98 /* notification_done.swift in Sources */,
+				72F357C82242D7E60028CA98 /* helpers.swift in Sources */,
+				72F357C42241C1500028CA98 /* notifications.swift in Sources */,
+				721EAFEF2226E2E9005A5D64 /* Tasks.swift in Sources */,
+				72B25E2E222371040005362C /* RegisterViewController.swift in Sources */,
+				729B2D8B2239998B002A4FD2 /* menuBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723197452223665500D2D19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7231974E2223665500D2D19D /* Lactogal_RHTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723197502223665500D2D19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723197592223665500D2D19D /* Lactogal_RHUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7231974B2223665500D2D19D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 723197342223665400D2D19D /* Lactogal RH */;
+			targetProxy = 7231974A2223665500D2D19D /* PBXContainerItemProxy */;
+		};
+		723197562223665500D2D19D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 723197342223665400D2D19D /* Lactogal RH */;
+			targetProxy = 723197552223665500D2D19D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7231973C2223665400D2D19D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7231973D2223665400D2D19D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		723197412223665500D2D19D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				723197422223665500D2D19D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7231975B2223665500D2D19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7231975C2223665500D2D19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7231975E2223665500D2D19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96F9F4FB9AEDBABB575C587 /* Pods-Lactogal RH.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9994PHBT43;
+				INFOPLIST_FILE = "Lactogal RH/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mbitsolutions.Lactogal-RH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7231975F2223665500D2D19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89EB2C8B8C4237D6DAE546C2 /* Pods-Lactogal RH.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9994PHBT43;
+				INFOPLIST_FILE = "Lactogal RH/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mbitsolutions.Lactogal-RH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		723197612223665500D2D19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88ADC5F0B0ED946DDE953CC /* Pods-Lactogal RHTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9994PHBT43;
+				INFOPLIST_FILE = "Lactogal RHTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mbitsolutions.Lactogal-RHTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lactogal RH.app/Lactogal RH";
+			};
+			name = Debug;
+		};
+		723197622223665500D2D19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D55C1880A69DB71D6DD1841A /* Pods-Lactogal RHTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9994PHBT43;
+				INFOPLIST_FILE = "Lactogal RHTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mbitsolutions.Lactogal-RHTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lactogal RH.app/Lactogal RH";
+			};
+			name = Release;
+		};
+		723197642223665500D2D19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64973DC4962DBF1690B2644 /* Pods-Lactogal RHUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9994PHBT43;
+				INFOPLIST_FILE = "Lactogal RHUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mbitsolutions.Lactogal-RHUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lactogal RH";
+			};
+			name = Debug;
+		};
+		723197652223665500D2D19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAEDADC0F2BB9EC691E94152 /* Pods-Lactogal RHUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9994PHBT43;
+				INFOPLIST_FILE = "Lactogal RHUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mbitsolutions.Lactogal-RHUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lactogal RH";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		723197302223665400D2D19D /* Build configuration list for PBXProject "Lactogal RH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7231975B2223665500D2D19D /* Debug */,
+				7231975C2223665500D2D19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7231975D2223665500D2D19D /* Build configuration list for PBXNativeTarget "Lactogal RH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7231975E2223665500D2D19D /* Debug */,
+				7231975F2223665500D2D19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		723197602223665500D2D19D /* Build configuration list for PBXNativeTarget "Lactogal RHTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723197612223665500D2D19D /* Debug */,
+				723197622223665500D2D19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		723197632223665500D2D19D /* Build configuration list for PBXNativeTarget "Lactogal RHUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723197642223665500D2D19D /* Debug */,
+				723197652223665500D2D19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7231972D2223665400D2D19D /* Project object */;
+}
