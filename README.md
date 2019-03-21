@@ -5,9 +5,7 @@ da FEUP. Foi um problema proposto pela Lactogal, com o objectivo de facilitar a 
 ## Tech/framework used
 
 <b>Built with</b>
-- [Javascript](https://www.javascript.com)
-- [Vue](https://vuejs.org/)
-- [Vuetify](https://vuetifyjs.com/en/)
+
 - [Firestore](https://firebase.google.com/docs/firestore/)
 - [NodeJS](https://nodejs.org/)
 - [Swift](https://developer.apple.com/swift/)
